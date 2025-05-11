@@ -13,6 +13,26 @@ Roboflow Inference allows you to:
 This repository includes a sample Python script to send image data to the inference server and retrieve predictions.
 
 ---
+📓 Train Your Model in Google Colab
+We provide a Google Colab notebook for training a YOLOv8 object detection model on a custom dataset with Roboflow:
+
+👉 Open Colab Notebook
+
+Features:
+Load datasets directly from Roboflow.
+
+Train and validate a YOLOv8 model using Ultralytics.
+
+Export trained weights for deployment.
+
+Optionally evaluate and visualize predictions in-line.
+
+Instructions:
+Open the notebook in Google Colab.
+
+Follow the cells step-by-step to configure your dataset and model.
+
+Once training is complete, download your weights (e.g., best.pt) for deployment.
 
 ## 🐳 Docker Deployment
 
