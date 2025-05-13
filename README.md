@@ -3,10 +3,15 @@
 This project demonstrates how to deploy and run a computer vision model on the edge using [Roboflow Inference](https://inference.roboflow.com/), an open-source inference server that can be run via Docker or Python.
 
 Combined-Dataset-V1: https://universe.roboflow.com/bernards-workspace-ahsqq/combined-dataset-gauge-digital-7-segment-voltmeter/dataset/1
+
 Combined-Dataset-V2: https://universe.roboflow.com/bernards-workspace-ahsqq/combined-dataset-v2/dataset/1
+
 YOLOv8s Model: https://universe.roboflow.com/bernards-workspace-ahsqq/combined-dataset-gauge-digital-7-segment-voltmeter/model/1
+
 YOLOv8m Model: https://universe.roboflow.com/bernards-workspace-ahsqq/combined-dataset-v2/model/2
+
 RF-DETR Model: https://universe.roboflow.com/bernards-workspace-ahsqq/combined-dataset-v2/model/1
+
 GitHub Repository: https://github.com/bernardstein/Digital-Gauge-OCR-Detection
 
 ---
