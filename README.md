@@ -1,16 +1,13 @@
-# Roboflow Inference Deployment (Edge Inference)
+# Roboflow Inference on YOLOv8s/m, FR-DETR and Edge Deployment
 
 This project demonstrates how to deploy and run a computer vision model on the edge using [Roboflow Inference](https://inference.roboflow.com/), an open-source inference server that can be run via Docker or Python.
 
-## 📦 Overview
-
-Roboflow Inference allows you to:
-
-* Self-host your model on CPU, GPU, or ARM-based devices.
-* Run inference with models trained on Roboflow.
-* Deploy using Docker or the `roboflow` Python pip package.
-
-This repository includes a sample Python script to send image data to the inference server and retrieve predictions.
+Combined-Dataset-V1: https://universe.roboflow.com/bernards-workspace-ahsqq/combined-dataset-gauge-digital-7-segment-voltmeter/dataset/1
+Combined-Dataset-V2: https://universe.roboflow.com/bernards-workspace-ahsqq/combined-dataset-v2/dataset/1
+YOLOv8s Model: https://universe.roboflow.com/bernards-workspace-ahsqq/combined-dataset-gauge-digital-7-segment-voltmeter/model/1
+YOLOv8m Model: https://universe.roboflow.com/bernards-workspace-ahsqq/combined-dataset-v2/model/2
+RF-DETR Model: https://universe.roboflow.com/bernards-workspace-ahsqq/combined-dataset-v2/model/1
+GitHub Repository: https://github.com/bernardstein/Digital-Gauge-OCR-Detection
 
 ---
 📓 Train Your Model in Google Colab
@@ -34,7 +31,9 @@ Follow the cells step-by-step to configure your dataset and model.
 
 Once training is complete, download your weights (e.g., best.pt) for deployment.
 
-## 🐳 Docker Deployment
+---
+
+🐳 Docker Deployment
 
 To deploy the Roboflow Inference server with GPU support:
 
@@ -46,8 +45,7 @@ docker run --gpus all -p 9001:9001 roboflow/roboflow-inference-server-gpu
 > If you're deploying on a device without a GPU, use the appropriate CPU/ARM image, such as `roboflow/roboflow-inference-server-cpu`.
 
 ---
-
-## 🐍 Python Inference Script
+🐍 Python Inference Script
 
 Install the required dependencies:
 
@@ -107,7 +105,6 @@ Example output:
   ]
 }
 ```
-
 ---
 
 ## 🧠 Resources
