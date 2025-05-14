@@ -10,7 +10,7 @@ YOLOv8s Model: https://universe.roboflow.com/bernards-workspace-ahsqq/combined-d
 
 YOLOv8m Model: https://universe.roboflow.com/bernards-workspace-ahsqq/combined-dataset-v2/model/2
 
-RF-DETR Model: https://universe.roboflow.com/bernards-workspace-ahsqq/combined-dataset-v2/model/1
+RF-DETR Model: https://universe.roboflow.com/bernards-workspace-ahsqq/combined-dataset-v2/model/4
 
 GitHub Repository: https://github.com/bernardstein/Digital-Gauge-OCR-Detection
 
